@@ -1,9 +1,32 @@
 .title {
     color: aliceblue;
 }
+
 .header {
     background-image: url(img/pattern.png);
     height: 100px;
     background-color: #4EA0FF;
-
 }
+
+.author {
+    font-size: 14.4px;
+    color: #808080;
+    
+}
+
+.author a {
+    color: #20A9E5; 
+    text-decoration: none;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.images img {
+    width: 50%;
+    height: auto;
+}
+
